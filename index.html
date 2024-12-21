@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Škoda Octavia 2024</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            font-family: 'Gabarito', sans-serif;
+            background-color: #f5faff;
+            color: #003d66;
+        }
+        .hero-section {
+            background: linear-gradient(145deg, #004080, #0073e6);
+            color: white;
+            padding: 50px 0;
+            text-align: center;
+        }
+        .hero-section h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        .hero-section p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+        .hero-section .btn {
+            background-color: #008cdd;
+            color: white;
+            border-radius: 50px;
+            padding: 10px 20px;
+            transition: background-color 0.3s ease;
+        }
+        .hero-section .btn:hover {
+            background-color: #005b99;
+        }
+
+        .model-section {
+            padding: 50px 0;
+        }
+        .model-card {
+            border: none;
+            border-radius: 15px;
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .model-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+        .model-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .model-card .card-body {
+            padding: 20px;
+            background: #f0f8ff;
+            text-align: center;
+        }
+        .model-card .card-title {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+        .model-card .card-text {
+            font-size: 1rem;
+            color: #005b99;
+        }
+        .model-card .btn {
+            background-color: #0073e6;
+            color: white;
+            border-radius: 20px;
+            padding: 5px 15px;
+        }
+        .model-card .btn:hover {
+            background-color: #004080;
+        }
+
+        .engine-section {
+            padding: 50px 0;
+            background-color: #eaf7ff;
+        }
+        .engine-section h2 {
+            margin-bottom: 30px;
+        }
+        .engine-card {
+            background: #d9f0ff;
+            border: none;
+            border-radius: 15px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .engine-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+        .engine-card .engine-icon {
+            font-size: 3rem;
+            color: #0073e6;
+            margin-bottom: 15px;
+        }
+        .engine-card .engine-title {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+        .engine-card .engine-details {
+            font-size: 1rem;
+            color: #004080;
+        }
+
+        /* Animations */
+        .fade-in {
+            animation: fadeIn 1s ease-in-out;
+        }
+        .slide-in-left {
+            animation: slideInLeft 1.5s ease-out;
+        }
+        .slide-in-right {
+            animation: slideInRight 1.5s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideInLeft {
+            from {
+                opacity: 0;
+                transform: translateX(-100%);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes slideInRight {
+            from {
+                opacity: 0;
+                transform: translateX(100%);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <div class="hero-section">
+        <h1>Škoda Octavia 2024</h1>
+        <p>Experience the elegance, performance, and innovation of the new Škoda Octavia lineup.</p>
+        <a href="#models" class="btn">Explore Models</a>
+    </div>
+
+    <!-- Models Section -->
+    <div id="models" class="model-section container">
+        <h2 class="text-center mb-5">Our Models</h2>
+        <div class="row g-4">
+            <!-- Model 1 -->
+            <div class="col-md-4 fade-in">
+                <div class="card model-card">
+                    <img src="https://tse3.mm.bing.net/th?id=OIP.Tu1BfOPtv3seBKDIwdxMLgHaFj&w=200&h=150&c=7" alt="Octavia Sedan">
+                    <div class="card-body">
+                        <h3 class="card-title">Octavia Sedan</h3>
+                        <p class="card-text">The classic sedan redefined for 2024.</p>
+                        <a href="#" class="btn">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Model 2 -->
+            <div class="col-md-4 fade-in">
+                <div class="card model-card">
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.MjPl2igpakY9W-a35JMAwAHaEK&w=200&h=112&c=7" alt="Octavia Combi">
+                    <div class="card-body">
+                        <h3 class="card-title">Octavia Combi</h3>
+                        <p class="card-text">Versatility meets luxury in the Octavia Combi.</p>
+                        <a href="#" class="btn">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Model 3 -->
+            <div class="col-md-4 fade-in">
+                <div class="card model-card">
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.CRcXyvUHwmd72O8KOgn6jgHaE8&w=200&h=133&c=7" alt="Octavia RS">
+                    <div class="card-body">
+                        <h3 class="card-title">Octavia RS</h3>
+                        <p class="card-text">High-performance and thrilling design.</p>
+                        <a href="#" class="btn">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Engines Section -->
+    <div id="engines" class="engine-section">
+        <div class="container">
+            <h2 class="text-center">Engine Options</h2>
+            <div class="row g-4">
+                <!-- Engine 1 -->
+                <div class="col-md-4 slide-in-left">
+                    <div class="engine-card">
+                        <div class="engine-icon">⚡</div>
+                        <h3 class="engine-title">1.0L TSI</h3>
+                        <p class="engine-details">Efficient and eco-friendly, perfect for city driving.</p>
+                    </div>
+                </div>
+                <!-- Engine 2 -->
+                <div class="col-md-4 fade-in">
+                    <div class="engine-card">
+                        <div class="engine-icon">🏎️</div>
+                        <h3 class="engine-title">2.0L TSI</h3>
+                        <p class="engine-details">High-performance engine for unmatched power.</p>
+                    </div>
+                </div>
+                <!-- Engine 3 -->
+                <div class="col-md-4 slide-in-right">
+                    <div class="engine-card">
+                        <div class="engine-icon">🌿</div>
+                        <h3 class="engine-title">Hybrid</h3>
+                        <p class="engine-details">Combining efficiency and sustainability for the future.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
